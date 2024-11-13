@@ -1,0 +1,25 @@
+@font-face { font-family: 'lust_prono_1';
+    src: url('positype_-_lustpro-no1-webfont.woff2') format('woff2'),
+         url('positype_-_lustpro-no1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'lust_prono_5';
+    src: url('positype_-_lustpro-no5-webfont.woff2') format('woff2'),
+         url('positype_-_lustpro-no5-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lust_prono_5_it';
+    src: url('positype_-_lustpro-no5it-webfont.woff2') format('woff2'),
+         url('positype_-_lustpro-no5it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

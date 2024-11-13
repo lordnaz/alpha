@@ -1,0 +1,940 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/SimpleImage.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="style-config.css" rel="stylesheet" type="text/css">
+  </head><body>
+    <div class="navbar navbar-default navbar-static-top" style="background: linear-gradient(to right, rgb(195, 42, 255), rgb(68, 90, 227));">
+      <div class="container" style="padding-top:10px;">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="LandingPage.html"><span style="font-size:30px;">Qhootbah</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#"><span class="hover-nav">Daftar/Log Masuk</span></a>
+            </li>
+            <li>
+              <a href="#"><span class="hover-nav">Cara Penggunaan</span></a>
+            </li>
+            <li>
+              <a href="FAQ.html" data-toggle="modal"><span class="hover-nav">Soalan Lazim</span></a>
+            </li>
+            <li>
+              <a href="#"><span class="hover-nav">Log Masuk</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container taskheader">
+        <div class="row" style="margin-top:20px;">
+          <div class="col-sm-4 col-xs-12 text-center colpadding mobile-space">
+            <a class="btn btn-block btn-task-header" href="KuliahFinder.html">Cari Kuliah</a>
+          </div>
+          <div class="col-sm-4 col-xs-12 text-center colpadding mobile-space">
+            <a class="btn btn-block btn-task-header" id="tempah" href="BookUstaz.html">Tempahan Ustaz &amp; Ustazah</a>
+          </div>
+          <div class="col-sm-4 col-xs-12 text-center colpadding mobile-space">
+            <a class="btn btn-block btn-task-header" id="caridantawar" href="SearchPostJob.html">Cari / Tawar Tugasan</a>
+          </div>
+        </div>
+      </div>
+      <p class="text-center white-color" style="margin-top:15px;">
+        <b>Hari Ahad , 21 Julai 2017 bersamaan 23 Rejab 1496</b>
+      </p>
+    </div>
+    <div class="container" style="padding-top:20px;">
+      <div class="col-md-12">
+        <h2 class="text-center">Pendaftaran Ahli Baru</h2>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img src="image/mac2.png" class="center-block img-responsive">
+          </div>
+          <div class="col-md-7">
+            <p class="text-center" style="font-family: roboto_black; font-size:20px;">Kelebihan Qhootbah Untuk Anda</p>
+            <ul class="text-justify">
+              <li>Penganjur dan penceramah akan mendapatkan pekerjaan / kegiatan yang akan
+                berlangsung pemberitahuan, beberapa hari sebelum tarikh sebenar</li>
+              <li>Untuk pembatalan&nbsp;speaker saat akhir, penganjur boleh mencari dan
+                mencari pilihan penggantian speaker</li>
+              <li>Penganjur / Speakers mempunyai akses kepada papan pemuka&nbsp;peribadi
+                mereka pada perbelanjaan bulanan mereka dan lain data yang berguna</li>
+              <li>Penganjur mempunyai akses&nbsp;kepada penceramah, jadual mereka dan perkhidmatan
+                mereka ditawarkan di seluruh Malaysia</li>
+              <li>Qhootbah merupakan platform perantara antara&nbsp;penganjur dan penceramah
+                untuk pembayaran dan rundingan</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-12">
+            <p class="text-center" style="padding-top:20px; font-size:16px;">Saya mendaftar sebagai:</p>
+            <div class="form-group">
+              <div class="radio">
+                <label class=" col-xs-12-only" style="margin:5px;">
+                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">Pengguna awam</label>
+                <label class=" col-xs-12-only" style="margin:5px;">
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" unchecked="">Organisasi (masjid, surau... dll)</label>
+                <label class=" col-xs-12-only" style="margin:5px;">
+                  <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" unchecked="">Penceramah (Ustaz, Ustazah... dll)</label>
+              </div>
+            </div>
+            <form role="form" class="text-center">
+              <div class="form-group"></div>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12" style="padding-top:15px;">
+            <p>Catatan:</p>
+            <ol>
+              <li>
+                <span style="font-family: roboto_black">Untuk penceramah</span>- Kami perlu mengesahkan latar belakang anda permohonan
+                yang diluluskan. Kami memerlukan salinan kad pengenalan (depan dan belakang)
+                anda, sijil pendidikan dan jumlah / sijil pendaftaran negeri majlis Islam</li>
+              <li>
+                <span style="font-family: roboto_black">Bagi penganjur</span>- Kami perlu status anda disahkan organisasi</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="user">
+      <div class="container">
+        <div class="row" style="padding-bottom: 30px;">
+          <div class="col-md-6">
+            <form class="form-horizontal text-left" role="form">
+              <div class="form-group has-feedback">
+                <div class="col-sm-4">
+                  <p for="inputEmail3" class="control-label">Emel</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label" for="inputPassword3">Kata laluan</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label">Kata laluan semula</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="password" class="form-control" placeholder="Reconfirm password">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <div class="col-md-6 col-md-offset-4" style="padding:0;">
+              <canvas id="can"></canvas>
+              <p>
+                <input type="file" id="myfile" accept="image/*" multiple="false" onchange="upload()">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row" style="padding-bottom: 30px;">
+          <div class="col-md-6">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p for="inputEmail3" class="control-label">Gelaran</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputEmail3" placeholder="">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label">Nombor telefon</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label">Negeri</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p for="inputEmail3" class="control-label">Nama Penuh</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label">Daerah</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row" style="padding-bottom: 30px;">
+          <div class="col-md-6">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p for="inputEmail3" class="control-label">Alamat</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label">Negeri</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p for="inputEmail3" class="control-label">Poskod</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p for="inputPassword3" class="control-label">Nombor telefon</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row" style="padding-bottom: 10px;">
+          <div class="col-md-6">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p for="inputEmail3" class="control-label">Facebook</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label">Instagram</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p for="inputEmail3" class="control-label">Youtube</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p for="inputPassword3" class="control-label">Other</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-xs-12 text-center">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">Saya setuju menerima
+                      <a href="" data-toggle="modal" data-target="#modalmasjid" class="link">terma dan syarat</a>&nbsp;untuk pendaftaran dan penggunaan Qhootbah</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group"></div>
+            </form>
+          </div>
+        </div>
+        <div class="container btn-container2">
+          <div class="row">
+            <div class="col-md-12">
+              <a class="btn btn-block btn-default btn-biru" href="Registeration Done.html">Daftar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="organizer" value="">
+      <div class="container">
+        <div class="row" style="padding-bottom: 30px;">
+          <div class="col-md-6">
+            <form class="form-horizontal text-left" role="form">
+              <div class="form-group has-feedback">
+                <div class="col-sm-4">
+                  <p for="inputEmail3" class="control-label">Email</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label" for="inputPassword3">Kata laluan</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label">Kata laluan semula</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="password" class="form-control" placeholder="Reconfirm password">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <div class="col-md-6 col-md-offset-4" style="padding:0;">
+              <canvas id="can"></canvas>
+              <p>
+                <input type="file" id="myfile" accept="image/*" multiple="false" onchange="upload()">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row" style="padding-bottom: 30px;">
+          <div class="col-md-6">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p for="inputEmail3" class="control-label">Nama bangunan</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputEmail3" placeholder="">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label">Alamat</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label">Negeri</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p for="inputPassword3" class="control-label">Poskod</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label">Nombor telefon</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row" style="padding-bottom: 15px;">
+          <div class="col-md-6">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p for="inputEmail3" class="control-label">Facebook</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label">Instagram&nbsp;</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p for="inputEmail3" class="control-label">Youtube</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p for="inputPassword3" class="control-label">Other</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-xs-12 text-center">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">Saya setuju menerima
+                      <a href="" data-toggle="modal" data-target="#modalmasjid" class="link">terma dan syarat</a>&nbsp;untuk pendaftaran dan penggunaan Qhootbah</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group"></div>
+            </form>
+          </div>
+        </div>
+        <div class="container btn-container2">
+          <div class="row">
+            <div class="col-md-12">
+              <a class="btn btn-block btn-default btn-biru" href="Registeration Done.html">Daftar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="ustaz" value="">
+      <div class="container">
+        <div class="row" style="padding-bottom: 30px;">
+          <div class="col-md-6">
+            <form class="form-horizontal text-left" role="form">
+              <div class="form-group has-feedback">
+                <div class="col-sm-4">
+                  <p for="inputEmail3" class="control-label">Email</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label" for="inputPassword3">Kata laluan</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label">Kata laluan semula</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="password" class="form-control" placeholder="Reconfirm password">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <div class="col-md-6 col-md-offset-4" style="padding:0;">
+              <canvas id="can"></canvas>
+              <p>
+                <input type="file" id="myfile" accept="image/*" multiple="false" onchange="upload()">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row" style="padding-bottom: 30px;">
+          <div class="col-md-6">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p for="inputEmail3" class="control-label">Gelaran</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputEmail3" placeholder="Ustaz / Ustazah">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label">No. Telefon</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label">Negeri</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p for="inputEmail3" class="control-label">Nama Penuh</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label" for="inputPassword3">No. Tauliah</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label">Daerah</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row" style="padding-bottom: 15px;">
+          <div class="col-md-6">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p for="inputEmail3" class="control-label">Facebook</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p class="control-label">Instagram&nbsp;</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p for="inputEmail3" class="control-label">Youtube</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <p for="inputPassword3" class="control-label">Other</p>
+                </div>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3 class="text-center">
+              <b>Servis yang anda sediakan?</b>
+            </h3>
+            <p>Hasil tugasan adalah berdasarkan servis dan kategori yang anda tawarkan.
+              Sila tanda yang berkenaan (Minimum 1)
+              <br>
+              <br>
+            </p>
+          </div>
+        </div>
+        <div class="row" style="padding-bottom: 20px;">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group" id="kuliahagama">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" onchange="valueChanged()">Kuliah Agama</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <input class="form-control" id="t-kuliahagama" type="text">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">Akidah</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <input class="form-control" id="exampleInputEmail1" type="text">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">Aqiqah</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <input class="form-control" id="exampleInputEmail1" type="text">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">Doa majlis/tahlil</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <input class="form-control" id="exampleInputEmail1" type="text">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">Kelas Bahasa Arab</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <input class="form-control" id="exampleInputEmail1" type="text">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">Kuliah/Ceramah</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <input class="form-control" id="exampleInputEmail1" type="text">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">Kurus Haji/Umrah</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <input class="form-control" id="exampleInputEmail1" type="text">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">Kursus Kahwin</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <input class="form-control" id="exampleInputEmail1" type="text">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">Kursus Solat</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <input class="form-control" id="exampleInputEmail1" type="text">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">Mengaji Iqra &amp; Al-Quran</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <input class="form-control" id="exampleInputEmail1" type="text">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">Motivasi/Kaunseling</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <input class="form-control" id="exampleInputEmail1" type="text">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">Rawatan Islam</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <input class="form-control" id="exampleInputEmail1" type="text">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">Tuisyen Agama</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <input class="form-control" id="exampleInputEmail1" type="text">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">Syariah</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <input class="form-control" id="exampleInputEmail1" type="text">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-xs-12 text-center">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">Saya setuju menerima
+                      <a href="" data-toggle="modal" data-target="#modalmasjid" class="link">terma dan syarat</a>&nbsp;untuk pendaftaran dan penggunaan Qhootbah</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container btn-container2">
+        <div class="col-md-12">
+          <a class="btn btn-biru btn-block btn-default" href="Registeration Done.html">Daftar</a>
+        </div>
+      </div>
+    </div><footer class="section section-primary text-left" style="height: 150px;">
+            <div class="background-image" style="background: linear-gradient(to left, #c32aff , #445ae3);"></div>
+            <div class="container">
+                <div class="row" style="height: 140px; margin-top: -30px;">
+                    <div class="col-sm-3">
+                        <p style="padding-top:15px;">FAQ</p>
+                        <p>Terma &amp; Syarat</p>
+                        <p>Polisi Pemulangan</p>
+                        <p>Jadi Rakan Kongsi Kami</p>
+                    </div>
+                    <div class="col-sm-6 text-center Footer-margin-center" style="padding-top: 30px;">
+                        <p>
+                            <span style="font-family: roboto_black; font-size: 16px;">SauceCode Studio Sdn. Bhd. (1227571-M)</span>
+                            <br>1-13A, Pangsapuri Metia, No.5, Persiaran Sukan, &nbsp;Seksyen 13, 40100
+                            , Shah Alam Selangor.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p class="text-info text-right">
+                            <br>
+                            <br>
+                        </p>
+                        <div class="row">
+                            <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left">
+                                <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
+                                <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
+                                <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+                                <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 hidden-xs text-right" id="parent">
+                                <a href="#"><i class="fa fa-2x fa-fw fa-instagram text-inverse"></i></a>
+                                <a href="#"><i class="fa fa-2x fa-facebook fa-fw text-inverse"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <div id="footer"></div>
+    
+    <script>
+      $("#ustaz").hide();
+                                                       $("#organizer").hide();
+                                                      
+                                                      $('input[name=optionsRadios]').change(function(){
+                                                            $('#user').toggle(this.value == 'option1');
+                                                          //  $('#user').toggle(this.value == 'option3');
+                                                          
+                                                    		
+                                                            $('#organizer').toggle(this.value == 'option2');
+                                                        // $('#organizer').toggle(this.value !== 'option3');
+                                                            $('#ustaz').toggle(this.value == 'option3');
+                                                           // $('#ustaz').toggle(this.value !== 'option2');
+                                                  });
+                              
+                              
+                                $("#penceramah").hide();
+                                                      $(document).ready(function(){
+                                                                     
+                                                                           $("#btn-awam").click(function()
+                                                                 			{
+                                                                                  $("#awam").show();
+                                                                                  $("#penceramah").hide();
+                                                                  				});
+                                                                     
+                                                                           $("#btn-penceramah").click(function()
+                                                                 				{
+                                                                                  $("#awam").hide();
+                                                                                  $("#penceramah").show();
+                                                                  				});
+                                                                    		});
+                                                      
+                                                      $('.btn-header').click(function(){
+                                                                              $('.btn-header').removeClass('active');
+                                                                              $(this).addClass('active');
+                                                                            });
+                              
+                              $(function() {
+                        $("#footer").load("footer.html"); 
+                        }); 
+      
+      
+      function upload(){
+  var imgcan=document.getElementById("can");
+  var fileinput=document.getElementById("myfile");
+  var image=new SimpleImage(fileinput);
+  image.drawTo(imgcan);
+}
+                        
+                                                     /* $("#t-kuliahagama").hide();
+                                                      function valueChanged()
+                                                			{
+                                                    			if($('#kuliahagama').is(":checked"))   
+                                                       					 $("#t-kuliahagama").show();
+                                                   				 else
+                                                        			$("#t-kuliahagama").hide();
+                                                			}*/
+    </script>
+  
+
+</body></html>
